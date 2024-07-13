@@ -124,12 +124,3 @@ resource "aws_eip" "proj-eip" {
  network_interface = aws_network_interface.proj-ni.id
  associate_with_private_ip = "10.0.1.10"
 }
-
-user_data  = <<-EOF
- #!/bin/bash
-     sudo apt-get update -y
- EOF
- tags = {
- Name = "TestServer"
- }
-}
