@@ -130,6 +130,6 @@ user_data  = <<-EOF
      sudo apt-get update -y
  EOF
  tags = {
- Name = "Prod-Server"
+ Name = "TestServer"
  }
 }
